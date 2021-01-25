@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+<h1 align="center">
+  ReactJS Application with ContextAPI + Typescript.
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">With Toast Messages and Input Validation!</p>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/gobarber-api?color=%23FF9000">
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#%EF%B8%8F-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-### `yarn start`
+<p align="center">
+  <img alt="Layout" src="https://res.cloudinary.com/eliasgcf/image/upload/v1588811213/GoBarber/Kapture_2020-05-06_at_21.25.26_tijnl5.gif">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💇🏻‍♂️ About the project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Simple login page using ContextAPI for handling User & Toast messages.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Technologies
 
-### `yarn build`
+Technologies that I used to develop this web client
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Router DOM](https://reacttraining.com/react-router/)
+- [React Icons](https://react-icons.netlify.com/#/)
+- [Yup](https://github.com/jquense/yup)
+- [Styled Components](https://styled-components.com/)
+- [Polished](https://github.com/styled-components/polished)
+- [Axios](https://github.com/axios/axios)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Getting started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Requirements
 
-### `yarn eject`
+> OBS: Node.js installation needed.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Clone the project and access the folder**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+$ git clone https://github.com/gabeleonn/context-login.git && cd context-login
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Follow the steps below for dependecy installation using yarn:**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Install the dependencies
+$ yarn
 
-## Learn More
+# Start the client
+$ yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Well done, the project is running! Access http://localhost:3000/ to see it.
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made by Gabriel Leon 👋 [See my linkedin](https://www.linkedin.com/in/gabeleonn/)
